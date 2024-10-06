@@ -96,17 +96,6 @@ function buildCharts(sample) {
 
     // Render the Bar Chart
     Plotly.newPlot('bar', [barTrace], barLayout);
-
-
-    // For the Bar Chart, map the otu_ids to a list of strings for your yticks
-
-
-    // Build a Bar Chart
-    // Don't forget to slice and reverse the input data appropriately
-
-
-    // Render the Bar Chart
-
   });
 }
 
@@ -131,21 +120,6 @@ function init() {
     // Build the initial charts and metadata with the first sample
     buildCharts(firstSample);
     buildMetadata(firstSample); 
-
-
-    // Use d3 to select the dropdown with id of `#selDataset`
-
-
-    // Use the list of sample names to populate the select options
-    // Hint: Inside a loop, you will need to use d3 to append a new
-    // option for each sample name.
-
-
-    // Get the first sample from the list
-
-
-    // Build charts and metadata panel with the first sample
-
   });
 }
 
